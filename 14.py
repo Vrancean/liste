@@ -1,0 +1,15 @@
+x=[1,8,4,7,-2,-8,3,0,-3]
+y=x.copy()
+print(x)
+b=sorted(x)
+print(b)
+c=b
+c.sort(reverse=True)
+print(c)
+print(len(x))
+print(max(x))
+print(min(x))
+x.extend([51])
+print(x)
+y.insert(2,38)
+print(y)
